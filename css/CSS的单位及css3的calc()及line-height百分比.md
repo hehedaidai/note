@@ -29,32 +29,32 @@ font-size: 62.5%;
 1.  使用了`padding、margin `等，实际百分比和你想要的百分比是有区别的。（关于这个，解决方法之一，就是我们可以使用css3的`calc()`属性，具体，您请继续往下看，在文章最后我会解释。）
 2. ` line-height`百分比的一些情况，通常结果是百分比 计算后的值。（关于这个，您请继续往下看。。。）
 
-##‘vh ’和 ‘vw’
+##`vh`和`vw`
 
 IE10＋ 和现代浏览器都支持这两个单位。
 
-* ‘vw’ Viewport宽度，‘ 1vw ’等于viewport宽度的1%
-* ‘vh’ Viewport高度， ‘1vh ’等于viewport高的的1%
+* `vw` Viewport宽度，`1vw `等于viewport宽度的1%
+* `vh` Viewport高度， `1vh `等于viewport高的的1%
 * vw和vh会随着viewport变化自动变化，再也不用js控制全屏了。
 
 甚至有些人丧心病狂的字体大小都用vw和vh控制，来达到字体和viewport大小同步的效果。
 
-##‘vmin’和‘vmax’
+##`vmin`和`vmax`
 
-##IE10+ 和现代浏览器都已经支持‘vmin’
+##IE10+ 和现代浏览器都已经支持`vmin`
 
-‘webkit’浏览器之前不支持‘vmax’，新版已经支持，所有现代浏览器已经支持，但是IE 全部 不支持‘vmax’
+‘webkit’浏览器之前不支持`vmax`，新版已经支持，所有现代浏览器已经支持，但是IE 全部 不支持‘vmax’
 
-* ‘vmin’ ’vw‘和’vh‘中比较 小 的值
-* ’vmax‘ ’vw‘和’vh‘中比较 大的值
-这两个属性也会随着’viewport’变化
+* `vmin` `vw`和`vh`中比较 小 的值
+* `vmax` `vw`和`vh`中比较 大的值
+这两个属性也会随着`viewport`变化
 
-##‘ch’和‘ex’
+##`ch`和`ex`
 
-IE9+ 和现代浏览器都已经支持,这两个单位时根据 当前‘font-family ’的相对单位。
+IE9+ 和现代浏览器都已经支持,这两个单位时根据 当前`font-family `的相对单位。
 
-‘ch’ 字符0的宽度
-‘ex’ 小写字符x的高度
+`ch` 字符0的宽度
+`ex` 小写字符x的高度
 
 ![](http://i5.buimg.com/2b26fa3c5778675e.jpg)
 
